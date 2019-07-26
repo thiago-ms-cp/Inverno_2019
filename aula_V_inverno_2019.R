@@ -8,6 +8,14 @@
 
 rm(list = ls())
 
+## comando para ler a documentação de uma função ===============
+
+?nomedafuncao
+
+# Ex.:
+
+?select # Abre o manual da funcao select
+
 ## abrir pacotes ===============================================
 
 library(tidyverse) # pacote para lidar com os dados
